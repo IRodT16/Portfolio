@@ -1,0 +1,57 @@
+.mainnav {
+  display: flex;
+  font-size: 2.4rem;
+  padding: 2.4rem;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist {
+  list-style-type: none;
+  font-style: italic;
+  display: flex;
+  width: 75rem;
+  justify-content: space-evenly;
+}
+
+.navheader {
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+}
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover,
+.navlink:focus,
+.navlink:active {
+  color: red;
+}
+
+.monogram {
+  display: flex;
+  border-radius: 50%;
+  background-image: url(../img/profile2.jpg);
+  background-size: cover;
+  /* padding: 1.1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.8rem;
+  font-family: cursive;
+  background-color: black; */
+  height: 7rem;
+  width: 7rem;
+  margin-left: 1.2rem;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+}

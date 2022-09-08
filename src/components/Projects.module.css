@@ -1,0 +1,83 @@
+.snippitbox {
+  width: 80vw;
+  padding-top: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.snippit {
+  height: 28rem;
+  width: 24rem;
+  border-radius: 8%;
+}
+
+.projectheader {
+  font-size: 4.8rem;
+  padding: 4.8rem;
+  border-bottom: solid 2px white;
+}
+
+.img1 {
+  display: flex;
+  background-image: url(../img/vudu.png);
+  background-size: cover;
+  height: 28rem;
+  width: 24rem;
+  border-radius: 8%;
+  justify-content: center;
+  align-items: center;
+}
+.img2 {
+  display: flex;
+  background-image: url(../img/lmsa.png);
+  background-size: cover;
+  height: 28rem;
+  width: 24rem;
+  border-radius: 8%;
+  justify-content: center;
+  align-items: center;
+}
+.img3 {
+  display: flex;
+  background-image: url(../img/omni.png);
+  background-size: cover;
+  height: 28rem;
+  width: 24rem;
+  border-radius: 8%;
+  justify-content: center;
+  align-items: center;
+}
+.img4 {
+  display: flex;
+  background-image: url(../img/forkify.png);
+  background-size: cover;
+  height: 28rem;
+  width: 24rem;
+  border-radius: 8%;
+  justify-content: center;
+  align-items: center;
+}
+.img5 {
+  display: flex;
+  background-image: url(../img/vudu.png);
+  background-size: cover;
+  height: 28rem;
+  width: 24rem;
+  border-radius: 8%;
+  justify-content: center;
+  align-items: center;
+}
+
+.insert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.484);
+  background-color: white;
+  height: 12rem;
+  width: 12rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
