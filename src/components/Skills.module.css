@@ -1,0 +1,40 @@
+.aboutheader {
+  font-size: 4.8rem;
+  padding: 4.8rem;
+  border-bottom: solid 2px white;
+}
+
+.skillsBox {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skill {
+  display: flex;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillHeader {
+  font-size: 2.4rem;
+  padding: 0.5rem;
+}
+
+.skillList {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.skillRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2.4rem;
+  left: 0;
+}
+
+ion-icon {
+}
