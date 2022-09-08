@@ -30,6 +30,7 @@
 .navlink:focus,
 .navlink:active {
   color: red;
+  font-weight: bold;
 }
 
 .monogram {
