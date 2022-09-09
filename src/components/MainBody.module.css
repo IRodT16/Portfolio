@@ -3,6 +3,13 @@
   border-radius: 75%;
 }
 
+.mainheader {
+  font-size: 12rem;
+}
+.mainbody {
+  font-size: 4rem;
+}
+
 @media (max-width: 82rem) {
   .profile {
     height: 22rem;
