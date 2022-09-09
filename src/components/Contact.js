@@ -15,8 +15,22 @@ const Contact = () => {
       <div className={styles.icons}>
         <ion-icon name="call-outline"></ion-icon>
         <ion-icon name="mail-outline"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
-        <ion-icon name="logo-github"></ion-icon>
+        <a
+          href="https://www.linkedin.com/in/ian-rodeghier-5167b9199/"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.iconLink}
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a
+          href="https://github.com/IRodT16"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.iconLink}
+        >
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
       </div>
     </section>
   );
