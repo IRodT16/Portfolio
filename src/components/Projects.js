@@ -39,7 +39,7 @@ const Projects = () => {
               <span className={styles.label}>LMSA</span>
               <div className={styles.hiddenEl}>
                 <a
-                  href="https:runwayjack.netlify.app"
+                  href="https://runwayjack.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                   className={styles.hiddenLabel}
@@ -65,7 +65,7 @@ const Projects = () => {
               <span className={styles.label}>OmniFood</span>
               <div className={styles.hiddenEl}>
                 <a
-                  href="https:omnifood-sample-project.netlify.app"
+                  href="https://omnifood-sample-project.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                   className={styles.hiddenLabel}
