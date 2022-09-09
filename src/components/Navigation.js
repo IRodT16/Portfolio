@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './Navigation.module.css';
 
 const Nav = (props) => {
-  const [currentPage, setCurrentPage] = useState('main');
+  const [currentPage] = useState('main');
   console.log(currentPage);
 
   //   const navClickHandler = (props) => {
