@@ -4,6 +4,14 @@
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 83rem) {
+  .snippitbox {
+    width: 88vw;
+    padding-top: 4.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .snippit {
   height: 28rem;
