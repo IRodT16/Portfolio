@@ -34,21 +34,22 @@ const Nav = (props) => {
         <li>
           <a
             className={styles.navlink}
-            href="#about"
-            onClick={() => props.setPath('about')}
-          >
-            About
-          </a>
-        </li>
-        <li>
-          <a
-            className={styles.navlink}
             href="#projects"
             onClick={() => props.setPath('projects')}
           >
             Portfolio
           </a>
         </li>
+        <li>
+          <a
+            className={styles.navlink}
+            href="#about"
+            onClick={() => props.setPath('about')}
+          >
+            About
+          </a>
+        </li>
+
         <li>
           <a
             className={styles.navlink}
