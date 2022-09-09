@@ -37,3 +37,10 @@
 .iconLink {
   color: white;
 }
+
+@media (max-width: 30rem) {
+  .contactBody {
+    margin-top: 48rem;
+    width: 75%;
+  }
+}
