@@ -1,9 +1,5 @@
 import React from 'react';
 import styles from './Projects.module.css';
-import img1 from '../../src/img/omni.png';
-import img2 from '../../src/img/forkify.png';
-import img3 from '../../src/img/vudu.png';
-import img4 from '../../src/img/lmsa.png';
 
 const Projects = () => {
   return (
