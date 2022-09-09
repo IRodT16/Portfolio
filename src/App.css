@@ -22,3 +22,9 @@
   height: 8rem;
   width: 100%;
 }
+
+@media (max-width: 82rem) {
+  .App {
+    overflow-y: scroll;
+  }
+}

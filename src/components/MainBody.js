@@ -6,8 +6,10 @@ const Main = () => {
   return (
     <div className={styles.main}>
       <img className={styles.profile} src={Image} alt="Profile" />
-      <h1>Hi, I'm Ian</h1>
-      <p>An educator and freelance full-stack web developer</p>
+      <h1 className={styles.mainheader}>Hi, I'm Ian</h1>
+      <p className={styles.mainbody}>
+        An educator and freelance full-stack web developer
+      </p>
     </div>
   );
 };

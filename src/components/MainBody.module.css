@@ -2,3 +2,27 @@
   height: 28rem;
   border-radius: 75%;
 }
+
+@media (max-width: 82rem) {
+  .profile {
+    height: 22rem;
+  }
+  .mainheader {
+    font-size: 8rem;
+  }
+  .mainbody {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 71rem) {
+  .profile {
+    height: 22rem;
+  }
+  .mainheader {
+    font-size: 6rem;
+  }
+  .mainbody {
+    font-size: 2.4rem;
+  }
+}

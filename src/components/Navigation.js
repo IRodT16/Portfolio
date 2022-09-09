@@ -14,7 +14,9 @@ const Nav = (props) => {
     <nav className={styles.mainnav}>
       {/* <span className={styles.monogram}>IR</span> */}
       <h1 className={styles.logo}>
-        {props.path === 'main' && <div>Ian Rodeghier</div>}
+        {props.path === 'main' && (
+          <div className={styles.navtitle}>Ian Rodeghier</div>
+        )}
         {/* <a
           className={styles.navheader}
           href="#main"
