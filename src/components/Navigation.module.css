@@ -24,13 +24,14 @@
 .navlink {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .navlink:hover,
 .navlink:focus,
 .navlink:active {
   color: red;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .monogram {
