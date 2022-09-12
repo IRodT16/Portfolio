@@ -30,7 +30,7 @@ const Contact = () => {
           <ion-icon name="mail-outline"></ion-icon>
         </a>
         <a
-          href="https://www.linkedin.com/in/ian-rodeghier-5167b9199/"
+          href="https://www.linkedin.com/in/ian-rodeghier/"
           target="_blank"
           rel="noreferrer"
           className={styles.iconLink}
