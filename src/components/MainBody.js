@@ -8,7 +8,7 @@ const Main = () => {
       <img className={styles.profile} src={Image} alt="Profile" />
       <h1 className={styles.mainheader}>Hi, I'm Ian</h1>
       <p className={styles.mainbody}>
-        An educator and freelance full-stack web developer
+        An educator and full-stack web developer
       </p>
     </div>
   );

@@ -74,16 +74,18 @@ const Nav = (props) => {
 
         <li className={styles.resume}>
           <a
-            className={styles.navlink}
-            href="#resume"
-            onClick={() => props.setPath('resume')}
+            className={styles.resnavlink}
+            href="https://docs.google.com/document/d/1VCOPwSEP6oaNODfZ8H4Gk2u8DsVm5eWai0VPmoAhSJ0/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            // onClick={() => props.setPath('resume')}
           >
             Resume
+            <ion-icon
+              className={styles.resumeIcon}
+              name="download-outline"
+            ></ion-icon>
           </a>
-          {/* <ion-icon
-            className={styles.resumeIcon}
-            name="download-outline"
-          ></ion-icon> */}
         </li>
       </ul>
     </nav>
