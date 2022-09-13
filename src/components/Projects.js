@@ -110,7 +110,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className={styles.imgwrapper}>
+        {/* <div className={styles.imgwrapper}>
           <div className={styles.img5}>
             <div className={styles.insert}>
               <span className={styles.label}>Natours</span>
@@ -132,9 +132,9 @@ const Projects = () => {
                   Repo
                 </a>
               </div>
-            </div>
+            </div> 
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );

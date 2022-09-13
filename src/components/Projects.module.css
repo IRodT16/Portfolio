@@ -121,7 +121,7 @@
 
 .imgwrapper:hover {
   transform: scale(1.1);
-  transition-delay: 150ms;
+  transition-delay: 100ms;
 }
 
 .hiddenLabel {
@@ -141,7 +141,7 @@
 }
 
 .imgwrapper:hover .hiddenLabel {
-  transition-delay: 125ms;
+  transition-delay: 100ms;
   display: flex;
   flex-direction: column;
 }
@@ -163,5 +163,12 @@
 @media (max-width: 54rem) {
   .snippitbox {
     padding-top: 54rem;
+  }
+}
+
+@media (max-width: 32rem) {
+  .snippitbox {
+    padding-top: 108rem;
+    grid-template-columns: 1fr;
   }
 }

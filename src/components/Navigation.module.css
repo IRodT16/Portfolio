@@ -102,13 +102,23 @@ icon {
 @media (max-width: 54rem) {
   .navlist {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
   }
   .navlink {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 2rem;
   }
   .mainnav {
     height: 16rem;
+  }
+  .resnavlink {
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+  }
+  .monogram {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
   }
 } ;
