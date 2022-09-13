@@ -162,13 +162,13 @@
 
 @media (max-width: 54rem) {
   .snippitbox {
-    padding-top: 54rem;
+    padding-top: 40rem;
   }
 }
 
-@media (max-width: 32rem) {
+@media (max-width: 34rem) {
   .snippitbox {
-    padding-top: 108rem;
+    padding-top: 88rem;
     grid-template-columns: 1fr;
   }
 }

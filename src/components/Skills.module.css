@@ -35,3 +35,32 @@
   padding: 1.5rem;
   left: 0;
 }
+
+@media (max-width: 54rem) {
+  .skillHeader {
+    font-size: 2rem;
+  }
+  .skillList {
+    font-size: 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    /* width: 90%; */
+  }
+  .body {
+    padding: 8rem;
+    padding-top: 24rem;
+  }
+}
+
+@media (max-width: 38rem) {
+  .body {
+    padding-top: 32rem;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .body {
+    margin-top: 16rem;
+  }
+}
