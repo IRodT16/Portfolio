@@ -37,6 +37,9 @@
 .iconLink {
   color: white;
 }
+.iconLink:hover {
+  color: #1c7ed6;
+}
 
 @media (max-width: 54rem) {
   .contactBody {
