@@ -1,5 +1,6 @@
 .profile {
   height: 28rem;
+  width: 30rem;
   border-radius: 75%;
 }
 @media (min-width: 83rem) {

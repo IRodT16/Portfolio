@@ -1,6 +1,5 @@
-import React from 'react';
 import styles from './MainBody.module.css';
-import Image from '../img/profile2.jpg';
+import Image from '../img/profile-comp.avif';
 
 const Main = () => {
   return (

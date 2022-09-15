@@ -27,7 +27,7 @@
 
 .img1 {
   display: flex;
-  background-image: url(../img/vudu.png);
+  background-image: url(../img/vudu.webp);
   background-size: cover;
   height: 28rem;
   width: 22rem;
@@ -38,7 +38,7 @@
 
 .img2 {
   display: flex;
-  background-image: url(../img/lmsa.png);
+  background-image: url(../img/lmsa.webp);
   background-size: cover;
   height: 28rem;
   width: 22rem;
@@ -48,7 +48,7 @@
 }
 .img3 {
   display: flex;
-  background-image: url(../img/omni.png);
+  background-image: url(../img/omni.webp);
   background-size: cover;
   height: 28rem;
   width: 22rem;
@@ -58,7 +58,7 @@
 }
 .img4 {
   display: flex;
-  background-image: url(../img/forkify.png);
+  background-image: url(../img/forkify.webp);
   background-size: cover;
   height: 28rem;
   width: 22rem;
@@ -68,7 +68,7 @@
 }
 .img5 {
   display: flex;
-  background-image: url(../img/vudu.png);
+  background-image: url(../img/vudu.webp);
   background-size: cover;
   height: 28rem;
   width: 22rem;
@@ -120,6 +120,7 @@
 }
 
 .imgwrapper:hover {
+  transition: transform 0.2s;
   transform: scale(1.1);
   transition-delay: 100ms;
 }

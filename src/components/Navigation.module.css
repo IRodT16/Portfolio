@@ -38,9 +38,9 @@
 /* .resume:hover {
   background-color: red;
 } */
-/* .resnavlink:hover {
+.resnavlink:hover {
   color: red;
-} */
+}
 .navlink:hover,
 .navlink:focus,
 .navlink:active {
