@@ -27,6 +27,14 @@ const Projects = () => {
                 >
                   Repo
                 </a>
+                <a
+                  href="https://drive.google.com/file/d/14A4cSmsuo7zaRYNUQo55mLaMvK-Y2ZWD/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles.hiddenLabel}
+                >
+                  Demo
+                </a>
               </div>
             </div>
           </div>
